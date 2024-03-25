@@ -1,0 +1,132 @@
+*
+{
+  font-family: Georgia;
+}
+body
+{
+  background: url('images/posts/post.png');
+}
+.topbar
+{
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+}
+.topbar .lien
+{
+  line-height: 70px;
+  padding: 0px 10px;
+}
+/*
+  Dans les liens principaux
+*/
+.topbar .lien ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul li ul li
+{
+  text-align: center;
+  float: left;
+  display: none;
+}
+ul li:hover ul li
+{
+  display: flex;
+}
+ul li
+{
+  float: right;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  line-height: 60px;
+}
+/*
+  Couleur et position des liens
+*/
+.topbar .lien a
+{
+  text-decoration: none;
+  color: #fff;
+  float: right;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+.topbar .lien a:hover
+{
+  color: green;
+}
+.topbar .lien ul li a.active
+{
+    color: green;
+}
+/*
+  Nom de l'application
+*/
+.topbar .lien .app-name
+{
+  font-weight: 600;
+  font-size: 23px;
+  float: left;
+  font-family: cursive;
+}
+.topbar .lien .app-name:hover
+{
+    color: red;
+}
+/*
+  Formulaire de connexion
+*/
+.img
+{
+  height: 90px;
+  width: 90px;
+  float: left;
+}
+.connexion
+{
+  font-size: 1.3em;
+  position: relative;
+  left: 25%;
+}
+.form-control .card .card-body .card-text .input
+{
+  width: 100%;
+  height: 60px;
+  background-color: inherit;
+  outline: inherit;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 10px;
+}
+.form-control .card .card-body .card-title
+{
+  font-size: 18px;
+  color: black;
+}
+.form-control .card .card-body .card-text .btn
+{
+  position: relative;
+  left: 35%;
+  width: 25%;
+}
+.form-control .card .card-body .card-text .input:hover
+{
+  border-bottom-color: blue;
+}
+/*
+  Formulaire de recherche
+*/
+
+/*
+  Table des projets
+*/
+.table
+{
+  margin-top: 130px;
+}
